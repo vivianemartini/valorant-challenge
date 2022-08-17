@@ -1,0 +1,11 @@
+:root {
+    --red-light: #FF4656;
+    --white: #ffffff;
+    --dark: #1F2326;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
