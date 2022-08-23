@@ -227,20 +227,23 @@ main {
 
 @media (max-width: 480px) {
     body {
-       background-image: url("img/background-mobile.png");
-        background-size: cover;
+        background-image: url("img/background-mobile.png");
+        width: 490px;
     }
     .bg-color {
         width: 490px;
-       height: 920px;
+        height: 920px;
 
     }
     .blur {
-    width: 360px;
-    height: 400px;
+        width: 900px;
+        height: 580px;
     }
     .nav-title {
         display: none;
+    }
+    .share-icon  {
+        margin-right: 50px;
     }
     .art-box img {
         display: none;
