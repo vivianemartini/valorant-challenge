@@ -70,6 +70,7 @@ body {
     padding: 25px;
     gap: 100px;
 }
+
 .valorant-icon {
     width: 50px;
     cursor: pointer;
@@ -107,7 +108,6 @@ main {
 .content-box {
     display: flex;
     flex-direction: column;
-    justify-content: ;
     align-items: left;
     margin-top: 50px;
     margin-left: 160px;
@@ -223,4 +223,50 @@ main {
     display: flex;
     gap: 20px;
     margin-left: 160px;
+}
+
+@media (max-width: 480px) {
+    body {
+       background-image: url("img/background-mobile.png");
+        background-size: cover;
+    }
+    .bg-color {
+        width: 490px;
+       height: 920px;
+
+    }
+    .blur {
+    width: 360px;
+    height: 400px;
+    }
+    .nav-title {
+        display: none;
+    }
+    .art-box img {
+        display: none;
+    }
+    .game-name {
+        display: none;
+    }
+    .character-box  {
+        ontent-boxdispley: flex;
+        flex-direction: column;
+    }
+    .img-border-2{
+        left: -10px;
+        top: 190px;
+    }
+    .img-border-3 {
+        left: -10px;
+        top: 385px;
+    }
+    .img-group img {
+        width: 140px;
+    }  
+
+    .footer {
+        margin-top: 80px;
+        margin-left: 150px;
+        gap: 40px;
+    }
 }
