@@ -118,11 +118,83 @@ main {
     display: flex;
     align-itmes: center;
     gap: 30px;
+    position: relative;
 }
 
-.character-box img {
+
+.img-group { 
+    width: 130px;
+    box-sizing: border-box;
+}
+
+.img-group img {
     border: 2px solid var(--white);
     width: 130px;
+    background:  var(--red-light);
+    position: relative;
+    clip-path: polygon(15% 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 15%);
+}
+
+.img-border {
+    position: absolute;
+    background:  var(--white);
+    width: 135px;
+    height: 130px;
+    left: -10px;
+    top: -7px;
+    clip-path: polygon(20% 0, 100% 0, 100% 80%, 80% 100%, 0 100%, 0 20%);
+}
+.img-border::after {
+    content: '';
+    position: absolute;
+    background: #222;
+    width: 98%;
+    height: 98%;
+    left: 1px;
+    top: 1px;
+    clip-path: polygon(20% 0, 100% 0, 100% 80%, 80% 100%, 0 100%, 0 20%);
+}
+
+.img-border-2 {
+    position: absolute;
+    background:  var(--white);
+    width: 135px;
+    height: 130px;
+    left: 150px;
+    top: -7px;
+    clip-path: polygon(20% 0, 100% 0, 100% 80%, 80% 100%, 0 100%, 0 20%);
+}
+
+.img-border-2::after {
+    content: '';
+    position: absolute;
+    background: #222;
+    width: 98%;
+    height: 98%;
+    left: 1px;
+    top: 1px;
+    clip-path: polygon(20% 0, 100% 0, 100% 80%, 80% 100%, 0 100%, 0 20%);
+}
+
+.img-border-3 {
+    position: absolute;
+    background:  var(--white);
+    width: 135px;
+    height: 130px;
+    left: 310px;
+    top: -7px;
+    clip-path: polygon(20% 0, 100% 0, 100% 80%, 80% 100%, 0 100%, 0 20%);
+}
+
+.img-border-3::after {
+    content: '';
+    position: absolute;
+    background: #222;
+    width: 98%;
+    height: 98%;
+    left: 1px;
+    top: 1px;
+    clip-path: polygon(20% 0, 100% 0, 100% 80%, 80% 100%, 0 100%, 0 20%);
 }
 
 .art-box {
