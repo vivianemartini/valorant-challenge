@@ -13,3 +13,9 @@ This is my solution for the [Codelandia - Iuri Silva](https://discord.com/channe
 
 * [Clip-path](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path#examples)
 * [Clip Path](https://css-tricks.com/almanac/properties/c/clip-path/)
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details
+
+## Acknowledgments
+- Thanks Codelandia
